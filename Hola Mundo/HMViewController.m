@@ -27,12 +27,16 @@
 }
 - (IBAction)mundoPressed:(UIButton *)sender {
     self.msg.text = @"Mundo";
-    MKCoordinateRegion reg = {{40.452445,-3.726162},{0.002, 0.002}};
+    MKCoordinateRegion reg = {{40.452445,-3.726162},{0.005, 0.005}};
     [self.map setRegion:reg animated:YES];
 }
 - (IBAction)sliderMoved:(UISlider *)sender {
     self.msg.alpha = sender.value;
 }
+- (IBAction)egiptPressed:(UIButton *)sender {
+    self.msg.text = @"Egipto";
+    MKCoordinateRegion reg = {{29.975798 , 31.130846},{0.005, 0.005}};
+    [self.map setRegion:reg animated:YES];}
 
 - (void)didReceiveMemoryWarning
 {
