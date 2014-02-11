@@ -21,6 +21,7 @@
 		833CB45C18AA5F27003EAA9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833CB43E18AA5F26003EAA9F /* UIKit.framework */; };
 		833CB46418AA5F27003EAA9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 833CB46218AA5F27003EAA9F /* InfoPlist.strings */; };
 		833CB46618AA5F27003EAA9F /* Hola_MundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 833CB46518AA5F27003EAA9F /* Hola_MundoTests.m */; };
+		83A9892218AA9ECA00F92EA1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A9892118AA9ECA00F92EA1 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		833CB46118AA5F27003EAA9F /* Hola MundoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hola MundoTests-Info.plist"; sourceTree = "<group>"; };
 		833CB46318AA5F27003EAA9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		833CB46518AA5F27003EAA9F /* Hola_MundoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hola_MundoTests.m; sourceTree = "<group>"; };
+		83A9892118AA9ECA00F92EA1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A9892218AA9ECA00F92EA1 /* MapKit.framework in Frameworks */,
 				833CB43D18AA5F26003EAA9F /* CoreGraphics.framework in Frameworks */,
 				833CB43F18AA5F26003EAA9F /* UIKit.framework in Frameworks */,
 				833CB43B18AA5F26003EAA9F /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		833CB43918AA5F26003EAA9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83A9892118AA9ECA00F92EA1 /* MapKit.framework */,
 				833CB43A18AA5F26003EAA9F /* Foundation.framework */,
 				833CB43C18AA5F26003EAA9F /* CoreGraphics.framework */,
 				833CB43E18AA5F26003EAA9F /* UIKit.framework */,
@@ -290,6 +294,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		833CB46218AA5F27003EAA9F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -461,6 +466,7 @@
 				833CB46B18AA5F27003EAA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833CB46C18AA5F27003EAA9F /* Build configuration list for PBXNativeTarget "Hola MundoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +475,7 @@
 				833CB46E18AA5F27003EAA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
