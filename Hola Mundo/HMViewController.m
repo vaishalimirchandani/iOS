@@ -12,6 +12,7 @@
 @interface HMViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *msg;
 @property (weak, nonatomic) IBOutlet MKMapView *map;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
 
 @end
 
@@ -24,6 +25,9 @@
 }
 - (IBAction)holaPressed:(UIButton *)sender {
     self.msg.text = @"Hola";
+    self.map.mapType = MKMapTypeHybrid;
+    self.slider.value=0.5;
+    self.msg.alpha = self.slider.value;
 }
 - (IBAction)mundoPressed:(UIButton *)sender {
     self.msg.text = @"Mundo";

@@ -66,6 +66,7 @@
                     <connections>
                         <outlet property="map" destination="bbF-qq-HpZ" id="46A-r9-hbq"/>
                         <outlet property="msg" destination="F61-a1-7hl" id="GmG-7L-HNh"/>
+                        <outlet property="slider" destination="4z5-YQ-1DI" id="GHm-8K-EKc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
